@@ -1,0 +1,11 @@
+body {
+	background-color: var(--clr-body-bg);
+	font-family: var(--ff-main);
+	color: var(--clr-text);
+}
+
+.header {
+	text-align: center;
+	padding: 0.5em 0;
+	border-bottom: 1px solid var(--clr-tile-border);
+}
