@@ -1,0 +1,24 @@
+.board__tile {
+	width: 62px;
+	height: 62px;
+	text-transform: uppercase;
+	padding: 0.35em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid var(--clr-tile-border);
+	font-weight: bold;
+}
+
+.board__tile.absent {
+	background-color: var(--clr-absent);
+	border-color: var(--clr-absent);
+}
+.board__tile.correct {
+	background-color: var(--clr-correct);
+	border-color: var(--clr-correct);
+}
+.board__tile.present {
+	background-color: var(--clr-present);
+	border-color: var(--clr-present);
+}

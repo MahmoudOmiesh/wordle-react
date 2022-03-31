@@ -1,0 +1,26 @@
+.keyboard {
+	display: grid;
+	grid-template-columns: repeat(20, 1fr);
+	gap: 0.4em;
+}
+
+.keyboard__letter {
+	cursor: pointer;
+	grid-column: span 2;
+	padding: 0.5em 0.25em;
+	background-color: var(--clr-key-bg);
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	border-radius: 0.3em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.keyboard__letter.push {
+	grid-column: 2 / span 2;
+}
+
+.keyboard__letter.span-three {
+	grid-column: span 3;
+}

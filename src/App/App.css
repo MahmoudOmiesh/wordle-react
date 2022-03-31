@@ -9,3 +9,10 @@ body {
 	padding: 0.5em 0;
 	border-bottom: 1px solid var(--clr-tile-border);
 }
+
+.main {
+	display: flex;
+	padding-top: 7rem;
+	flex-direction: column;
+	align-items: center;
+}
