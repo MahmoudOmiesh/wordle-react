@@ -1,0 +1,23 @@
+.popup__container {
+  position: absolute;
+  top: 7.5%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.popup {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  padding: 0.5em 2em;
+  border-radius: 0.35em;
+  opacity: 0;
+  animation: fade 300ms both ease-in;
+}
+
+@keyframes fade {
+  to {
+    opacity: 1;
+  }
+}
