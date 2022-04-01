@@ -19,9 +19,8 @@ export default function BoardTile({
       return 'board__tile correct';
     }
     if (
-      actualWord.includes(guessLetter) &&
-      guessWord.every((letter, idx) => letter !== actualWord[idx])
-    ) {
+      actualWord.includes(guessLetter))
+
       return 'board__tile present';
     }
     return 'board__tile absent';
