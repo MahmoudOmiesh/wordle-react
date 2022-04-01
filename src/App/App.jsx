@@ -113,8 +113,7 @@ function getCurrentWord() {
 function getLetterColor(word, letter, idx) {
   if (currentWord[idx] === letter) return { [letter]: 'correct' };
   if (
-    currentWord.includes(letter) &&
-    currentWord.split('').every((l, i) => word[i] !== l)
+    currentWord.includes(letter))
   )
     return { [letter]: 'present' };
   return { [letter]: 'absent' };
